@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "duckduckgo": {
+      "command": "/usr/local/bin/ddg-search-mcp"
+    },
+    "gmail": {
+      "command": "gmail-mcp --stdio",
+      "gmail_password": "YOUR_GMAIL_PASSWORD_HERE"
+    }
+  }
+}
