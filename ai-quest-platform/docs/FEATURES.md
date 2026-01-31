@@ -4,62 +4,50 @@ This document outlines the planned features for the AI-Quest Platform, detailing
 
 ## 🚀 MVP Features (Minimum Viable Product)
 
-The MVP will focus on establishing a core loop of gamified project management with essential AI assistance, designed to be immediately useful for small-team projects.
+The MVP will exclusively focus on establishing the "AI-empowered team collaboration learning experience," guiding teenagers on how to collaborate effectively. It will provide foundational project management and AI assistance to directly address this core goal.
 
-### 1. Core Gamification Loop
+### 1. Core AI Assistance for Collaboration & Learning
 
-*   **User Registration & Profile:** Basic user accounts, personalized profiles (player name, avatar).
-*   **Team/Party Creation:** Students can form small teams (parties) for collaborative projects.
-*   **Quest/Project Definition:** Teachers/Admins (or AI-assisted) can define projects as "Quests" with a clear goal and reward structure.
-*   **Basic Task Management:**
-    *   **Task Creation:** Teams can create and assign individual tasks linked to the Quest.
-    *   **Task Status Update:** Simple "To Do," "In Progress," "Done" status tracking.
-    *   **Due Dates:** Assign due dates to tasks.
-*   **XP & Gold Earning:** Completing tasks earns Experience Points (XP) and in-game Gold for individual characters.
-*   **Basic Character Progression:** Character leveling based on XP.
-*   **Punishment/Reward System:** Linking task completion/failure to basic in-game rewards/penalties.
+*   **AI Task Breakdown & Structuring:**
+    *   AI assists in taking a large project goal and breaking it down into manageable, structured sub-tasks.
+    *   AI can suggest task dependencies and sequences.
+*   **AI-Guided Task Assignment & Negotiation:**
+    *   AI suggests initial task assignments to team members based on project needs (without assuming skills).
+    *   AI facilitates communication for team members to negotiate and finalize task ownership.
+*   **AI Progress Monitoring & Proactive Nudging:**
+    *   AI tracks task status and progress within the project.
+    *   AI detects potential bottlenecks or delays (e.g., overdue tasks, uneven workload).
+    *   AI sends contextual reminders or nudges to individual students or the team, focusing on how to get unstuck or communicate effectively.
+*   **AI Feedback on Collaboration Dynamics:**
+    *   AI provides basic, objective feedback on team collaboration (e.g., "Team member X has not updated their tasks in 3 days," "Team has many overdue tasks").
+    *   AI can prompt reflection on teamwork effectiveness (e.g., "What could the team do differently to improve communication on this task?").
+*   **Context-Sensitive AI Guidance (Simple):**
+    *   If a student explicitly asks for help on a specific task, AI can provide guidance, point to resources, or suggest problem-solving strategies.
 
-### 2. Essential Project Management
+### 2. Foundational Project Management
 
-*   **Task List View:** A clear, sortable list of all tasks within a project/quest.
-*   **Basic Task Details:** Each task includes a description, assigned team member(s), due date, and current status.
-*   **Project History/Audit Log:** A basic record of key events related to tasks (creation, assignment, completion, status changes).
+*   **Task Creation & Basic Details:** Allows for creating tasks with a title, description, assigned team member(s), and due date.
+*   **Task Status Tracking:** Simple "To Do," "In Progress," "Done" status for tasks.
+*   **Task List View:** A clear list of all tasks within a project.
+*   **Basic Project History:** Records key task events (creation, assignment, status changes) to feed AI monitoring.
 
-### 3. Core AI Assistance (My Role)
+### 3. Basic User & Team Management
 
-*   **AI Task Breakdown Suggestions:** For a given project/quest goal, the AI can provide initial suggestions for task decomposition.
-*   **Proactive Nudges & Reminders:** AI monitors task due dates and progress, sending automated reminders for overdue or upcoming tasks.
-*   **Context-Sensitive AI Guidance:** If a student asks for help on a specific task, the AI can provide relevant advice, resource links, or hints (e.g., "AI Mentor" persona).
-*   **Initial Project Summary:** AI can generate a brief summary of project status or team performance.
-
-### 4. Integration Layer (Initial)
-
-*   **Internal API:** Well-defined internal APIs to connect the Gamification, Project Management, and AI Layers.
-*   **Database:** Utilize SQLite for structured project data and AI-generated summaries.
+*   **User Registration & Profile:** Basic accounts for students and teachers/mentors.
+*   **Team/Group Creation:** Functionality to form student teams for projects.
 
 ## ✨ Future Expansion Features
 
-These features represent the next stages of development, building on the MVP's foundation.
+These features represent the next stages of development, building on the focused MVP.
 
-*   **Advanced Gamification:**
-    *   In-game shop for purchasing gear/items with Gold.
-    *   Customizable avatars and equipment.
-    *   Complex skill trees and abilities tied to real-world learning.
-    *   Competitive elements (leaderboards, PvP challenges between teams).
-*   **Enhanced Project Management:**
-    *   Multiple Project Views (Kanban board, Mind Map, Org Chart, Gantt charts).
-    *   Collaborative Document Editing within tasks.
-    *   Advanced User Roles & Permissions.
-    *   File Attachments & Asset Management.
-    *   Automated Workflow Triggers.
+*   **Advanced Gamification:** Full Habitica-like experience (XP, Gold, character progression, in-game items, visual rewards).
+*   **Enhanced Project Management Views:** Kanban boards, Mind Maps, Gantt charts, collaborative document editing.
 *   **Advanced AI Assistance:**
-    *   **Intelligent Task Assignment:** AI suggests optimal task distribution based on team member skills, availability, and past performance.
-    *   **AI Conflict Detection & Mediation:** AI analyzes communication patterns and project history to identify and help resolve team conflicts.
-    *   **Multi-Perspective AI Commentary:** Integration with specialized AI models/MCPs to offer diverse, in-depth comments on project challenges or news relevant to the project.
-    *   **Proactive Problem Solving:** AI identifies potential project roadblocks before they occur and suggests preventative measures.
-    *   **Dynamic Learning Paths:** AI personalizes learning resources based on individual student needs and project challenges.
-*   **External Integrations:** Optional API integrations with existing tools like Habitica (for existing Habitica users), Taskade, or school LMS systems.
-*   **Native Mobile Apps:** Dedicated iOS and Android applications for an optimized mobile experience.
+    *   Intelligent skill-based task assignment.
+    *   AI Conflict Detection & Mediation.
+    *   Multi-Perspective AI Commentary.
+    *   Proactive Problem Solving (predicting roadblocks).
+    *   Dynamic Learning Paths & personalized resource recommendations.
+*   **External Integrations:** Optional API integrations with existing tools like Habitica, Taskade, or school LMS systems.
+*   **Native Mobile Apps:** Dedicated iOS and Android applications.
 *   **Advanced Reporting & Analytics:** AI-powered insights into team dynamics, individual learning, and project efficiency.
-
-This comprehensive roadmap will guide the development of AI-Quest into a robust and transformative platform.
